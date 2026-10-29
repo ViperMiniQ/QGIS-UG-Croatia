@@ -1,4 +1,4 @@
-{{ with hugo.Data.zapisnici_skupstine }}
+{{ with .Site.Data.zapisnici_skupstine }}
 <ul class="zapisnici-list">
     {{ range sort . "datum" "desc" }}
     {{ $datum := time.AsTime .datum }}
