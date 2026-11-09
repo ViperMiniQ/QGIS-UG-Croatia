@@ -61,7 +61,7 @@ Uređuje postupak i kriterije financiranja projekata i radnih zadataka Udruge.
 {{< column-end >}}
 {{< columns-end >}}
 
-## Zapisnici skupštine
+## Zapisnici sa skupština
 
 {{< columns-start >}}
 {{< column-start class="is-flex-direction-column is-full">}}
