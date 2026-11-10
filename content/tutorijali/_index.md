@@ -1,7 +1,6 @@
 ---
 type: "page"
-title: "Tutorials"
-subtitle: "Step-by-step guides by the community"
+title: "Tutorijali"
 draft: false
 sidebar: true
 ---

@@ -15,26 +15,39 @@ og_image: "tutorials/osm-vector-tiles/img/image20.webp"
 
 ## Preuzimanje podataka
 
-Koristit će se podaci Eurostata. Odaberemo parametre kao što su prikazani u priloženoj slici i preuzmemo podatke. (https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries) 
+### Eurostat
+
+Koristit će se podaci Eurostata: (https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries) 
+
+Odabiremo relevantu godinu. 
+
+*File format* odabiremo **GeoPackage** jer on predstavlja skup podataka spremljenih u kompaktnoj bazi, a može sadržavati vektorske i rasterske podatke te tablične podatke bez prostorne komponente. 
+
+Za *Geometry type* odabiremo **Polygons (RG)**. 
+Poligoni su jedna od tri osnovne vrste vektorskih podataka. Uz njih postoje još točke i linije. Koristimo se vektorskim podacima jer oni predstavljaju geografske objekte pomoću geografskih oblika povezanih s tekstualnim i/ili numeričkim podacima (atributna tablica). 
+
+Za *Scale*, odnosno rezoluciju, odabiremo najveću koja nam se nudi (tj. najmanji broj). 
+
+Za *Coordinate reference system* odabiremo **EPSG: 3857** jer on predstavlja WGS 84 (referentni elipsoid) i Pseudo-Mercatorovu projekciju (internetska standardna kartografska projekcija).
+
 <p align="center">
   <img src="./img/eurostat.webp" alt="Podaci s Eurostata" style="max-width: 80%;">
 </p>
 
+### Bioportal
 
 Također, koristit će se WFS podaci Bioportala. (https://bioportal.hr/o-sustavu/)
+
+WFS (Web Feature Service) predstavlja standardiziranu mrežnu uslugu koja omogućuje direktno preuzimanje vektorskih prostornih podataka putem interneta.
+
 <p align="center">
   <img src="./img/bioportal.webp" alt="Bioportal" style="max-width: 80%;">
 </p>
 
+
 ## Postupak
 
-Koristimo se vektorskim podacima jer oni predstavljaju geografske objekte pomoću geografskih oblika povezanih s tekstualnim i/ili numeričkim podacima (atributna tablica).
-
-Postoje tri osnovne vrste vektorskih podataka: točke, linije i poligoni.
-
-U ovom tutorijalu će se koristiti poligoni.
-
-Učitajmo vektorski sloj tako da u alatnoj traci odaberemo **Open Data Source Manager**.
+Učitamo vektorski sloj tako da u alatnoj traci odaberemo **Open Data Source Manager**.
 
 <p align="center">
   <img src="./img/opendatasource.webp" alt="Open Data Source Manager" style="max-width: 80%;">
@@ -51,7 +64,7 @@ Klikom na **Add** pojavi se novi sloj.
   <img src="./img/add.webp" alt="Novi sloj" style="max-width: 80%;">
 </p>
 
-Približimo na područje Republike Hrvatske i u alatnoj traci odaberemo **Select Features by Area or Single Click** te označimo Hrvatsku.
+Približimo na područje Republike Hrvatske i u alatnoj traci odaberemo **Select Features by Area or Single Click** te kliknemo na Hrvatsku.
 
 <p align="center">
   <img src="./img/selectfeature.webp" alt="Select Features by Area or Single Click" style="max-width: 80%;">
@@ -249,8 +262,8 @@ Kartu izvozimo odabirom jedne od tri označenih opcija: **Export as image**, **E
   <img src="./img/export.webp" alt="Izvoz karte" style="max-width: 80%;">
 </p>
 
-## Author
+## Autorica
 
-[Ark Arjun](https://arkives.in/) is a geospatial professional and an OpenStreetMap Volunteer from Kerala.
+[Valentina Cindrić](https://www.inaturalist.org/people/valenakvadrat) je studentica diplomskog studija Eksperimentalne biologije na Prirodoslovno-matematičkom fakultetu u Zagrebu. Osim rada u laboratoriju, posvećena je i terenskom radu te se bavi fotografijom zbog čega je postala ambasadorica platforme iNaturalist.
 
 {{< content-end >}}
