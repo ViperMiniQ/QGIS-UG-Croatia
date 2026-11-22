@@ -17,16 +17,16 @@ og_image: "tutorials/osm-vector-tiles/img/image20.webp"
 
 ### Eurostat
 
-Koristit će se podaci Eurostata: (https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries) 
+Koristit će se podaci Eurostata: (https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries)
 
-Odabiremo relevantu godinu. 
+Odabiremo relevantu godinu.
 
-*File format* odabiremo **GeoPackage** jer on predstavlja skup podataka spremljenih u kompaktnoj bazi, a može sadržavati vektorske i rasterske podatke te tablične podatke bez prostorne komponente. 
+*File format* odabiremo **GeoPackage** jer on predstavlja skup podataka spremljenih u kompaktnoj bazi, a može sadržavati vektorske i rasterske podatke te tablične podatke bez prostorne komponente.
 
-Za *Geometry type* odabiremo **Polygons (RG)**. 
-Poligoni su jedna od tri osnovne vrste vektorskih podataka. Uz njih postoje još točke i linije. Koristimo se vektorskim podacima jer oni predstavljaju geografske objekte pomoću geografskih oblika povezanih s tekstualnim i/ili numeričkim podacima (atributna tablica). 
+Za *Geometry type* odabiremo **Polygons (RG)**.
+Poligoni su jedna od tri osnovne vrste vektorskih podataka. Uz njih postoje još točke i linije. Koristimo se vektorskim podacima jer oni predstavljaju geografske objekte pomoću geografskih oblika povezanih s tekstualnim i/ili numeričkim podacima (atributna tablica).
 
-Za *Scale*, odnosno rezoluciju, odabiremo najveću koja nam se nudi (tj. najmanji broj). 
+Za *Scale*, odnosno rezoluciju, odabiremo najveću koja nam se nudi (tj. najmanji broj).
 
 Za *Coordinate reference system* odabiremo **EPSG: 3857** jer on predstavlja WGS 84 (referentni elipsoid) i Pseudo-Mercatorovu projekciju (internetska standardna kartografska projekcija).
 
@@ -70,7 +70,7 @@ Približimo na područje Republike Hrvatske i u alatnoj traci odaberemo **Select
   <img src="./img/selectfeature.webp" alt="Select Features by Area or Single Click" style="max-width: 80%;">
 </p>
 
-Kako bismo ju izdvojili u zaseban sloj, koristimo prečace na tipkovnici: **CTRL + C** → **CTRL + ALT + V**. 
+Kako bismo ju izdvojili u zaseban sloj, koristimo prečace na tipkovnici: **CTRL + C** → **CTRL + ALT + V**.
 
 Upišemo željeno ime sloja i kliknemo **OK**.
 
@@ -126,7 +126,7 @@ U prostor *kategorija_zastite* upišemo **Park prirode** i odaberemo **Extend Fi
   <img src="./img/parkprirodeor.webp" alt="Filtriranje - Park prirode" style="max-width: 80%;">
 </p>
 
-Filtriranjem podataka dobijemo izraz kojeg kopiramo. 
+Filtriranjem podataka dobijemo izraz kojeg kopiramo.
 
 <p align="center">
   <img src="./img/copyexpression.webp" alt="Kopiranje izraza" style="max-width: 80%;">
@@ -144,7 +144,7 @@ Kliknemo **Source** te otvorimo **Query Builder**. Zalijepimo prethodno kopirani
   <img src="./img/querybuilder.webp" alt="Query builder" style="max-width: 80%;">
 </p>
 
-Sloj uređujemo desnim klikom na njega i odabirom **Properties...** te klikom na **Symbology**. Odaberemo **Categorized**. Pod *Value* odaberemo *kategorija_zastite* i kliknemo **Classify**. 
+Sloj uređujemo desnim klikom na njega i odabirom **Properties...** te klikom na **Symbology**. Odaberemo **Categorized**. Pod *Value* odaberemo *kategorija_zastite* i kliknemo **Classify**.
 
 <p align="center">
   <img src="./img/symbology1.webp" alt="Uređivanje sloja" style="max-width: 80%;">
@@ -206,7 +206,7 @@ Naslov dodajemo opcijom **Add Label**. Kliknemo u prostor radne površine te pov
   <img src="./img/addlabel.webp" alt="Dodavanje naslova" style="max-width: 80%;">
 </p>
 
-Desnim klikom i odabirom **Item Properties...** otvorimo svojstva elementa. 
+Desnim klikom i odabirom **Item Properties...** otvorimo svojstva elementa.
 
 <p align="center">
   <img src="./img/itemprops.webp" alt="Svojstva elementa naslova" style="max-width: 80%;">
@@ -222,7 +222,7 @@ Grafičko mjerilo dodajemo opcijom **Add Scale Bar**. Kliknemo u prostor radne p
   <img src="./img/addscalebar.webp" alt="Dodavanje grafičkog mjerila" style="max-width: 80%;">
 </p>
 
-Desnim klikom i odabirom **Item Properties...** otvorimo svojstva elementa. 
+Desnim klikom i odabirom **Item Properties...** otvorimo svojstva elementa.
 
 <p align="center">
   <img src="./img/itempropssb.webp" alt="Svojstva mjerila" style="max-width: 80%;">
