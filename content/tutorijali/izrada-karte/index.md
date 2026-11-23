@@ -28,7 +28,7 @@ Poligoni su jedna od tri osnovne vrste vektorskih podataka. Uz njih postoje još
 
 Za *Scale*, odnosno rezoluciju, odabiremo najveću koja nam se nudi (tj. najmanji broj).
 
-Za *Coordinate reference system* odabiremo **EPSG: 3857** jer on predstavlja WGS 84 (referentni elipsoid) i Pseudo-Mercatorovu projekciju (internetska standardna kartografska projekcija).
+Za *Coordinate reference system* odabiremo **EPSG: 3857** jer on predstavlja Pseudo-Mercatorovu projekciju baziranu na WGS 84 referentnom elipsoidu (uobičajena kartografska projekcija za prikaz karte svijeta na internetu).
 
 <p align="center">
   <img src="./img/eurostat.webp" alt="Podaci s Eurostata" style="max-width: 80%;">
