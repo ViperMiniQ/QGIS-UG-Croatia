@@ -161,17 +161,22 @@ sectionPagesMenu = 'main'
 [[menu.main]]
   name = "Doniraj"
   url = "/doniraj/"
-  weight = 60
+  weight = 40
 
 [[menu.main]]
   name = "Pravila"
   url = "/pravila/"
-  weight = 80
+  weight = 50
 
 [[menu.main]]
   name = "Dokumenti"
   url = "/dokumenti/"
-  weight = 85
+  weight = 60
+
+[[menu.main]]
+  name = "Tutorijali"
+  url = "/tutorijali"
+  weight = 70
 
 [[menu.main]]
   name = "Tutorijali"
