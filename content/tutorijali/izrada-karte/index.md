@@ -26,7 +26,7 @@ Odabiremo relevantu godinu.
 Za *Geometry type* odabiremo **Polygons (RG)**.
 Poligoni su jedna od tri osnovne vrste vektorskih podataka. Uz njih postoje još točke i linije. Koristimo se vektorskim podacima jer oni predstavljaju geografske objekte pomoću geografskih oblika povezanih s tekstualnim i/ili numeričkim podacima (atributna tablica).
 
-Za *Scale*, odnosno rezoluciju, odabiremo najveću koja nam se nudi (tj. najmanji broj).
+Za *Scale*, odnosno mjerilo, odabiremo najkrupnije koje nam se nudi (tj. najmanji broj).
 
 Za *Coordinate reference system* odabiremo **EPSG: 3857** jer on predstavlja Pseudo-Mercatorovu projekciju baziranu na WGS 84 referentnom elipsoidu (uobičajena kartografska projekcija za prikaz karte svijeta na internetu).
 
