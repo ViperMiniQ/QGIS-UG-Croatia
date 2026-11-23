@@ -78,7 +78,7 @@ Upišemo željeno ime sloja i kliknemo **OK**.
   <img src="./img/ctrlcctrlaltv.webp" alt="Izdvajanje Hrvatske u novi sloj" style="max-width: 80%;">
 </p>
 
-Podatke s Bioportala dodajemo desnim klikom na **WFS/OGC API - Features** te odabirom **New Connection...**.
+Podatke s Bioportala dodajemo desnim klikom na **WFS/OGC API - Features** unutar **Browser** panela te odabirom **New Connection...**.
 
 <p align="center">
   <img src="./img/wfs.webp" alt="Podaci s Bioportala" style="max-width: 80%;">
