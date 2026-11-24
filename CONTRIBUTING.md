@@ -1,6 +1,6 @@
-# ✨ Contributing to QGIS-User-Group-Website
+# ✨ Contributing to QGIS-UG-Croatia
 
-Thank you for considering contributing to QGIS User Conference Website!
+Thank you for considering contributing to the QGIS User Group Croatia website!
 We welcome contributions of all kinds, including bug fixes, feature requests,
 documentation improvements, and more. Please follow the guidelines below to
 ensure a smooth contribution process.
@@ -22,8 +22,8 @@ This web site is a static site built using [Hugo](https://gohugo.io/).
 
 development
 ```
-git clone https://github.com/qgis/QGIS-User-Group-Website.git
-cd QGIS-User-Group-Website
+git clone https://github.com/qgis/QGIS-UG-Croatia.git
+cd QGIS-UG-Croatia
 # To update the submodule
 git submodule update --init --recursive
 ```
@@ -141,8 +141,8 @@ Once the permissions are configured, you can clone the repository and use the bu
     cd /mnt/c/Users/YourUsername/Documents
 
     # Clone the repository
-    git clone https://github.com/QGIS/QGIS-User-Group-Website.git
-    cd QGIS-User-Group-Website
+    git clone https://github.com/qgis/QGIS-UG-Croatia.git
+    cd QGIS-UG-Croatia
     ```
 
 2.  **Run the Development Server:**
@@ -178,7 +178,7 @@ If you are using VSCode, I recommend the following extensions:
 Clone the repo:
 
 ```
-git clone https://github.com/qgis/QGIS-User-Group-Website.git
+git clone https://github.com/qgis/QGIS-UG-Croatia.git
 ```
 
 Run the site:
@@ -270,7 +270,7 @@ $PLAYWRIGHT \
     --project chromium
 ```
 
-Read more on testing [here](https://github.com/qgis/QGIS-User-Group-Website/blob/main/playwright/ci-test/README.md).
+Read more on testing [here](https://github.com/qgis/QGIS-UG-Croatia/blob/main/playwright/ci-test/README.md).
 
 ### Running as github action
 

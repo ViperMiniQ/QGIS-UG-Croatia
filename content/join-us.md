@@ -20,14 +20,20 @@ Bilo da si početnik ili iskusan korisnik QGIS-a, svi su dobrodošli. Pridruži 
 ### Pridruživanje
 
 - Članstvo je otvoreno svima koji su zainteresirani za QGIS
+- Zbog zakonske regulative, možemo primiti isključivo članove koji imaju [važeći OIB u Republici Hrvatskoj](https://porezna-uprava.gov.hr/hr/osobni-identifikacijski-broj-oib/4586)
 
-Potrebno je kontaktirati tajnika Udruge (Dario Tot, [totdario@gmail.com](totdario@gmail.com)) te dostaviti podatke: ime i prezime, OIB, adresa prebivališta, datum rođenja, kontakt e-mail adresa, 
+Podaci potrebni za učlanjenje su: ime i prezime (naziv tvrtke), OIB, adresa prebivališta (adresa sjedišta tvrtke), datum rođenja (datum osnivanja), kontakt e-mail adresa.
+
+Potrebno je ispuniti i poslati obrazac dostupan na [poveznici](https://forms.gle/DtFLjavRa2JvojoJ7).
+
+Nakon popunjenog obrasca kontaktirati će Vas tajnik Udruge vezano za daljnji postupak. U slučaju poteškoća možete poslati email poruku na [info+uclanjenje@qgis.hr](mailto:info+uclanjenje@qgis.hr?subject=Upit%20u%20vezi%20uclanjenja).
 
 Pravilnik o članarini se može naći pod [Dokumenti](/dokumenti/)
 
 ### Odgovornosti
 
 Od člana se očekuje da:
+
 - Poštuje ova pravila i smjernice
 - Sudjeluje konstruktivno
 - Podržava misiju grupe
