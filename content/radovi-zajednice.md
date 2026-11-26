@@ -1,10 +1,10 @@
 ---
 type: "page"
 title: "Doprinosi, resursi, edukacije i QGIS dodaci"
-subtitle: "Softverska rješenja razvijena od strane članova"
+subtitle: "Radovi članova udruge"
 draft: false
 sidebar: true
-url: "/alati-zajednice/"
+url: "/radovi-zajednice/"
 ---
 
 {{< content-start >}}
@@ -21,7 +21,7 @@ url: "/alati-zajednice/"
 Značajniji doprinosi funkcionalnosti QGIS-a od naše zajednice kroz volonterstvo naših članova
 
 - Autor **Dominik Cindrić**:
-  - [Delete vertices](https://github.com/qgis/) - opis
+  - [Delete vertices](https://github.com/qgis/QGIS/pull/63257) - brisanje velikog broja točaka geometrija sada je trenutno (par sekundi za nekoliko stotina tisuća točaka), dok je prijašnja implementacija trebala minute ili sate za isti postupak. Osim ubrzanja, ispravnost krajnje geometrije je povećana - na određenim vrstama geometrije (**CompoundCurve**), nije bilo sigurno brisati više od jedne točke odjednom, a sada nema ograničenja, rezultat će uvijek biti validan.
 
 ## Resursi
 
@@ -50,7 +50,9 @@ Korisni resursi koji se mogu iskoristiti za izradu vlastitih projekata
 Javno dostupni edukacijski i stručni materijali koje su naši članovi izradili i objavili
 
 - Autor **Valentina Cindrić**:
-  - [Izrada karte nacionalnih i parkova prirode](https://hr.qgis.org/tutorijali#karta-nacionalnih-i-parkova-prirode)
+  - [Izrada karte nacionalnih i parkova prirode](https://hr.qgis.org/tutorijali/izrada-karte/)
+
+<!-- -->
 
 - Autor **Vedran Stojnović**:
   - [Uvod u GIS](https://www.youtube.com/watch?v=mV6MLM8kwng) - Webinar o osnovama GIS-a i usporedba s CAD-om
@@ -61,6 +63,14 @@ Javno dostupni edukacijski i stručni materijali koje su naši članovi izradili
 ## Stručni i znanstveni radovi
 
 Objavljeni stručni radovi vezani za projekte u kojima je korišten QGIS
+
+- Suator i autor **Sohrab Seyedehmehrmanzar**
+  - [Connections Between the Landscape Structure-related Regulation Ecosystem Services and Air Quality (Pm10) on a European Scale ](https://doi.org/10.14232/phd.12497)
+  - [Effect of geographical parameters on PM10 pollution in European landscapes: a machine learning algorithm-based analysis](https://doi.org/10.1186/s12302-024-00972-z)
+  - [Effects of land use patterns on PM10 concentrations in urban and suburban areas. A European scale analysis](https://doi.org/10.1016/j.apr.2023.101942)
+  - [Connection between the Spatial Characteristics of the Road and Railway Networks and the Air Pollution (PM10) in Urban–Rural Fringe Zones](https://www.mdpi.com/2071-1050/14/16/10103)
+
+<!-- -->
 
 - Suautor i autor **Vedran Stojnović**:
   - [Umjetna inteligencija i računanje površine geodetskog četverokuta na elipsoidu](https://hrcak.srce.hr/file/483613)
@@ -73,8 +83,8 @@ Objavljeni stručni radovi vezani za projekte u kojima je korišten QGIS
 Dodaci za QGIS (pluginovi) izrađeni i objavljeni od članova naše zajednice
 
 - Autor **Dominik Cindrić**:
-  - [QGIS Layer Tree Tools](https://plugins.qgis.org/plugins/layer_tree_tools/) - QGIS dodatak za sortiranje, grupiranje i izradu snimki (snapshot) čvorova u stablu slojeva.
-  - [Viper](https://plugins.qgis.org/plugins/Viper-QGIS-snake-clone-main/) - QGIS dodatak koji implementira klasičnu igru zmija koristeći geografske objekte i operacije nad geometrijom; prikladan za radionice o GIS-u, QGIS-u i programiranju.
+  - [QGIS Layer Tree Tools](https://plugins.qgis.org/plugins/layer_tree_tools/) - QGIS dodatak za sortiranje, grupiranje i izradu snimki (snapshot) čvorova u stablu slojeva (Layers Panel).
+  - [Viper](https://plugins.qgis.org/plugins/Viper-QGIS-snake-clone-main/) - QGIS dodatak koji implementira klasičnu igru Zmija (Snake) koristeći geometrije i operacije nad geometrijom.
 
 {{< rich-content-end >}}
 {{< rich-box-end >}}
